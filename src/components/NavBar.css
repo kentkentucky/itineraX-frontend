@@ -1,0 +1,53 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vh 2vw 0.5vh 2vw;
+  background-color: #2b2b2b;
+  border-bottom: 2px solid #ab8cab;
+  border-radius: 3px;
+}
+
+.home-btn {
+  background: none;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+}
+
+.dropdown-toggle {
+  width: 12vw;
+  height: 12vw;
+  background: none;
+  border-radius: 50%;
+  border: 1px solid #ab8cab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-menu {
+  background-color: #1f1d1f;
+  width: 25vw;
+  padding: 2vw;
+  border-radius: 10px;
+}
+
+.dropdown-item {
+  color: white;
+  padding: 0 0 0 2vw;
+}
+
+.home-btn:hover {
+  cursor: pointer;
+}
+
+.logout-btn {
+  width: 20vw;
+  height: 4vh;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}

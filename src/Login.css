@@ -1,0 +1,17 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.login-btn {
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  width: 20vw;
+  height: 5vh;
+}

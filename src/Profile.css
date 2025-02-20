@@ -1,0 +1,25 @@
+.profile-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+  gap: 2vh;
+}
+
+.profile-form > p {
+  margin: 0;
+}
+
+.save-btn {
+  background-color: green;
+  width: 17vw;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+}
