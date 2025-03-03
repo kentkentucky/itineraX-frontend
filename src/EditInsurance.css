@@ -1,0 +1,5 @@
+.edit-insurance-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+}

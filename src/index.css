@@ -29,3 +29,115 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+.banner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 2px solid #ab8cab;
+}
+
+.img-banner {
+  width: 100vw;
+  height: 25vh;
+  display: block;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1vw;
+}
+
+.ticket-header > h3 {
+  margin: 0;
+}
+
+.flight-number {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.ticket-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+
+.ticket-body > p,
+h4 {
+  margin: 0;
+}
+
+.ticket-divider {
+  font-size: 2rem;
+  color: #ab8cab;
+  align-self: center;
+}
+
+.edit-btn {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 2px;
+  width: 8vw;
+  height: 8vw;
+}
+
+.delete-btn {
+  background-color: red;
+  border: none;
+  border-radius: 2px;
+  width: 8vw;
+  height: 8vw;
+}
+
+.save-btn {
+  background-color: green;
+  width: 17vw;
+  height: 4vh;
+  border: none;
+  border-radius: 5px;
+}
+
+.back-btn {
+  border: 2px solid #ab8cab;
+  border-radius: 5px;
+  margin-left: 1vw;
+  width: 8vw;
+  height: 8vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  margin: 2vw;
+}
+
+.form > p {
+  margin: 0;
+}
+
+.form > input {
+  width: 70vw;
+  height: 4vh;
+}
+
+.form > h3 {
+  margin: 0;
+}
+
+.location-input {
+  width: 70vw;
+  height: 4vh;
+}
+
+.file-upload {
+  width: 50vw;
+}

@@ -1,0 +1,26 @@
+.accomodation-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.accomodation-info {
+  width: 100vw;
+  height: fit-content;
+  border: 1px solid #ab8cab;
+  border-radius: 5px;
+  background-color: #242424;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1vh;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}

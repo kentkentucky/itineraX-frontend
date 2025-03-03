@@ -1,6 +1,7 @@
 .profile-container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
 }
 
 .profile-form {
@@ -14,12 +15,4 @@
 
 .profile-form > p {
   margin: 0;
-}
-
-.save-btn {
-  background-color: green;
-  width: 17vw;
-  height: 5vh;
-  border: none;
-  border-radius: 5px;
 }

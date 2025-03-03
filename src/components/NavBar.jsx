@@ -34,6 +34,13 @@ function NavBar() {
         >
           Edit profile
         </Dropdown.Item>
+        <Dropdown.Item
+          onClick={() => {
+            navigate("/archive");
+          }}
+        >
+          Archives
+        </Dropdown.Item>
         <Dropdown.Divider />
         <Dropdown.Item>
           <button

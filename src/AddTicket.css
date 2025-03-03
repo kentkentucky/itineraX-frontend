@@ -1,0 +1,10 @@
+.add-ticket-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.type-dropdown {
+  width: 70vw;
+  height: 4vh;
+}

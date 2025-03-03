@@ -1,0 +1,32 @@
+.add-rental-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.rental-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  margin: 2vw;
+}
+
+.rental-form > p {
+  margin: 0;
+}
+
+.rental-form > input {
+  width: 70vw;
+  height: 4vh;
+}
+
+.location-input {
+  width: 70vw;
+  height: 4vh;
+}
+
+.file-upload {
+  width: 50vw;
+}

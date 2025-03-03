@@ -1,0 +1,133 @@
+.itinerary-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.itinerary-phrase-container {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: black;
+  padding: 1vh 1vw;
+  font-size: 2rem;
+}
+
+.css-p6t5ds {
+  margin-top: 1vh;
+}
+
+.calendar-container {
+  margin-top: 1vh;
+}
+
+.rbc-off-range-bg {
+  background-color: #e30b5c !important;
+}
+
+.rbc-today {
+  background-color: #0077c0 !important;
+}
+
+.rbc-btn-group > button {
+  color: white !important;
+}
+
+.rbc-active {
+  background-color: dodgerblue !important;
+}
+
+.rbc-day {
+  height: 150vh;
+}
+
+.add-event-btn {
+  width: 10vw;
+  height: 10vw;
+  background-color: green;
+  border-radius: 50%;
+  border: none;
+  position: sticky;
+  bottom: 2vh;
+  left: 88vw;
+}
+
+.event-component {
+  font-size: 0.7rem;
+}
+
+.event-component > p {
+  margin: 0;
+}
+
+.event-component > p > a {
+  color: #e30b5c;
+}
+
+.rbc-event {
+  overflow-y: auto !important;
+}
+
+.add-ticket-btn {
+  width: 5.5vw;
+  height: 5.5vw;
+  background-color: green;
+  border-radius: 50%;
+  border: none;
+  margin-top: 0.5vh;
+  position: relative;
+  cursor: pointer;
+}
+
+.add-ticket-btn::after {
+  content: "Add Ticket";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-20%);
+  background-color: black;
+  color: white;
+  padding: 5px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.add-ticket-btn:hover::after {
+  opacity: 1;
+}
+
+.event {
+  border: 1px solid #ab8cab;
+  border-radius: 10px;
+  padding: 0 2vw 2vw 2vw;
+}
+
+.event-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1vw;
+}
+
+.event-date > h5 {
+  margin: 0;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.event-details > p {
+  margin: 0;
+}

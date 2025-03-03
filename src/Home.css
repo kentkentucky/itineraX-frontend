@@ -1,22 +1,12 @@
 .home-container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
 
-.banner {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.img-home {
-  width: 100vw;
-  display: block;
-}
-
-.phrase {
+.phrase-container {
   display: flex;
   flex-direction: column;
   font-family: "Playfair Display", serif;
@@ -29,6 +19,215 @@
   font-size: 1.2rem;
 }
 
-.itinerary-container {
-  margin: 2vw;
+.add-container {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+
+#dropdown-button-drop-up {
+  background-color: green;
+  border: none;
+}
+
+.css-19kzrtu {
+  padding: 0 !important;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-item {
+  width: 100vw;
+  height: fit-content;
+  border: 1px solid #ab8cab;
+  border-radius: 5px;
+  background-color: #242424;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.list-btn {
+  width: 100vw;
+  height: fit-content;
+  border: 1px solid #ab8cab;
+  border-radius: 5px;
+  background-color: #242424;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.expense-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 65vh;
+}
+
+.expense-container > p {
+  margin: 2vh 0 0 0;
+}
+
+.itinerary-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+}
+
+.itinerary-btn > h5 {
+  margin: 0;
+}
+
+.invite-form {
+  width: 80vw;
+  height: 20vh;
+  background-color: #242424;
+  border: 2px solid #ab8cab;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.invite-form > input {
+  width: 65vw;
+  height: 4vh;
+}
+
+.invite-form > p {
+  margin: 0;
+}
+
+.invite-btn {
+  width: 20vw;
+  height: 4vh;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+}
+
+.close-btn {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  position: absolute;
+  top: 1vh;
+  left: 2vw;
+}
+
+.flash-message {
+  position: absolute;
+  top: 8vh;
+  z-index: 30;
+  width: 80vw;
+  height: 5vh;
+  background-color: #242424;
+  border: 2px solid #ab8cab;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invitation-popup {
+  width: 90vw;
+  height: fit-content;
+  border: 1px solid #ab8cab;
+  border-radius: 5px;
+  background-color: #242424;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+.invitation-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1vw;
+}
+
+.invitation-header > h3 {
+  margin: 0;
+}
+
+.invitation-body {
+  text-align: center;
+  padding: 5vw;
+}
+
+.invitation-body > p {
+  margin: 0;
+}
+
+.response-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.accept-btn {
+  background-color: green;
+  width: 18vw;
+  height: 3.5vh;
+  border-radius: 5px;
+  border: none;
+}
+
+.decline-btn {
+  background-color: red;
+  width: 18vw;
+  height: 3.5vh;
+  border-radius: 5px;
+  border: none;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+
+.archive-btn {
+  width: 7vw;
+  height: 7vw;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.invitation-btn {
+  width: 7vw;
+  height: 7vw;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }

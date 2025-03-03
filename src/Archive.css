@@ -1,0 +1,38 @@
+.archive-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.archive-list > h5 {
+  width: 100vw;
+  padding: 1vw;
+  background-color: #ab8cab;
+  margin: 0;
+}
+
+.archive-itinerary-btn {
+  width: 100vw;
+  height: fit-content;
+  border: 1px solid #ab8cab;
+  border-radius: 5px;
+  background-color: #242424;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 3vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.archive-itinerary-btn > h5 {
+  margin: 0;
+}

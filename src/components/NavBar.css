@@ -38,6 +38,7 @@
 .dropdown-item {
   color: white;
   padding: 0 0 0 2vw;
+  margin-bottom: 1vh;
 }
 
 .home-btn:hover {

@@ -1,0 +1,31 @@
+.create-itinerary-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.itinerary-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+  gap: 2vh;
+}
+
+.itinerary-form > p {
+  margin: 0;
+}
+
+.itinerary-form > input {
+  width: 55vw;
+  height: 4vh;
+}
+
+.create-btn {
+  background-color: green;
+  width: 17vw;
+  height: 4vh;
+  border: none;
+  border-radius: 5px;
+}

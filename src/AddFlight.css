@@ -1,0 +1,31 @@
+.add-flight-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.flight-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  margin: 2vw;
+}
+
+.flight-form > p {
+  margin: 0;
+}
+
+.file-upload {
+  width: 50vw;
+}
+
+.add-btn {
+  width: 20vw;
+  height: 4vh;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  margin: 2vw;
+}
